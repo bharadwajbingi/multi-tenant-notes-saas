@@ -1,3 +1,8 @@
+
+<img width="1921" height="736" alt="image" src="https://github.com/user-attachments/assets/b2c49788-6fe6-4527-96f4-02adf8b4c02d" />
+<img width="2140" height="1353" alt="image" src="https://github.com/user-attachments/assets/79ad3e4d-f48d-44da-b36a-e95f65495950" />
+
+
 # Multi-Tenant SaaS Notes Application
 
 A full-stack multi-tenant Notes SaaS application built with the MERN stack (MongoDB, Express, React, Node).
