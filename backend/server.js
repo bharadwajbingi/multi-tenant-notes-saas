@@ -11,7 +11,13 @@ const MONGO_URI = process.env.MONGO_URI;
 const JWT_SECRET = process.env.JWT_SECRET;
 
 // Middleware
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://multi-tenant-notes-saas-frontend-five.vercel.app", // your frontend URL
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    credentials: true, // if using cookies
+  })
+);
 app.use(express.json());
 
 // Database Connection
